@@ -1,0 +1,12 @@
+Sub DoUntil()
+Dim a As Integer
+a = 1
+
+    Do Until a > 11
+    
+        Cells(a, 1).Value = "Welcome"
+        a = a + 1
+    
+    Loop
+    
+End Sub
